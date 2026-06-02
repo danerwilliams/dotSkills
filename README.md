@@ -27,4 +27,6 @@ Claude Code picks up changes in-session; **restart Codex** to pick up newly link
 ## Notes
 
 - Skills here are sanitized to be portable: no private-repo links, no other people's names.
-- Any `corpus/` (evidence data used to derive a skill) is git-ignored and kept local only.
+- A skill's `corpus/` holds the sanitized evidence it was distilled from — verbatim snippets
+  and code context only, with links removed and people anonymized. Raw/un-sanitized build
+  data is git-ignored.

@@ -116,9 +116,10 @@ scripts/post-comment.sh reply  <pr> <comment_id>  -b "comment"   # reply in a th
 For a multi-comment review (several inline notes + a summary, his common shape),
 batch them in one review via the GitHub reviews API rather than many separate posts.
 
-## Refreshing the evidence base (optional)
+## Evidence corpus
 
-The skill is self-contained; refreshing only matters if you want to re-derive it from
-newer review history. `scripts/fetch-comments.sh <owner/repo>` re-pulls a corpus of
-Dane's comments, `shard-corpus.py` re-chunks it, then re-run the analysis workflow to
-regenerate the taxonomy. The corpus itself is intentionally not committed to this repo.
+`corpus/comments.jsonl` holds the full set of Dane's real review comments this skill was
+distilled from (verbatim snippets + code context, with links and other people's names
+removed). The curated few-shot set in `references/comment-bank.md` is enough for most
+drafting; reach for the full corpus only when you want more examples of a specific
+pattern. It's a frozen snapshot — not regenerated.
