@@ -1,11 +1,3 @@
-# Raw / un-sanitized build data — never publish.
-# (The sanitized corpus, dane-review/corpus/comments.jsonl, IS committed.)
-**/corpus/_sanitize/
-**/corpus/chunks/
-**/corpus/eval/
-**/corpus/analysis.json
-**/corpus/prs.json
-
 # OS / editor cruft
 .DS_Store
 *.swp
