@@ -1,0 +1,43 @@
+dane-review/scripts/addlang.jq
+  s_83997dbf45f34e::t_cea855d45be309 1-17
+dane-review/references/typescript.md
+  s_83997dbf45f34e::t_cea855d45be309 1-96
+dane-review/references/general-review.md
+  s_83997dbf45f34e::t_cea855d45be309 1-147
+dane-review/SKILL.md
+  s_83997dbf45f34e::t_cea855d45be309 1-124
+dane-review/references/react.md
+  s_83997dbf45f34e::t_cea855d45be309 1-87
+dane-review/references/comment-bank.md
+  s_83997dbf45f34e::t_cea855d45be309 1-141
+dane-review/scripts/fetch-comments.sh
+  s_83997dbf45f34e::t_cea855d45be309 1-67
+dane-review/scripts/post-comment.sh
+  s_83997dbf45f34e::t_cea855d45be309 1-47
+.gitignore
+  s_83997dbf45f34e::t_9fd0bc67d694db 1-6
+README.md
+  s_83997dbf45f34e::t_8ebc2c1817b9c3 1-30
+install.sh
+  s_83997dbf45f34e::t_dfa3d2a5d9212d 1-29
+dane-review/scripts/shard-corpus.py
+  s_83997dbf45f34e::t_cea855d45be309 1-59
+dane-review/references/voice.md
+  s_83997dbf45f34e::t_cea855d45be309 1-196
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2db32c8efbb558d834e09ac5af4780a567c962e7",
+  "prompts": {},
+  "sessions": {
+    "s_83997dbf45f34e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "045dc91b-d4a6-4ca4-8c28-4a96be3a8182",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Dane Williams <dane.williams@clay.com>"
+    }
+  }
+}
