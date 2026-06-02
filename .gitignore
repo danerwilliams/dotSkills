@@ -1,0 +1,6 @@
+# Never publish the evidence corpus / build artifacts used to derive a skill
+**/corpus/
+
+# OS / editor cruft
+.DS_Store
+*.swp

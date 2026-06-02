@@ -1,0 +1,30 @@
+# dotSkills
+
+My personal [Agent Skills](https://agentskills.io) — the source of truth, symlinked
+into both **Claude Code** (`~/.claude/skills/`) and **OpenAI Codex** (`~/.codex/skills/`).
+
+Each top-level folder is one skill in the portable Agent Skills format both tools read:
+a required `SKILL.md` (YAML `name`/`description` + markdown body) plus optional
+`references/` (loaded on demand) and `scripts/` (run when invoked).
+
+## Skills
+
+- **[dane-review](dane-review/)** — draft PR review comments in my voice and proactively
+  catch the small style/correctness things I tend to flag. Repo-agnostic; strongest on
+  TypeScript/React.
+
+## Install
+
+From the repo root, symlink skills into both tools:
+
+```bash
+./install.sh              # link every skill here into ~/.claude/skills and ~/.codex/skills
+./install.sh dane-review  # just one
+```
+
+Claude Code picks up changes in-session; **restart Codex** to pick up newly linked skills.
+
+## Notes
+
+- Skills here are sanitized to be portable: no private-repo links, no other people's names.
+- Any `corpus/` (evidence data used to derive a skill) is git-ignored and kept local only.
