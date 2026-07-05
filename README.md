@@ -13,9 +13,8 @@ read: a required `SKILL.md` (YAML `name`/`description` + markdown body) plus opt
   proactively catch the small style/correctness things I tend to flag. Repo-agnostic;
   strongest on TypeScript/React.
 - **[herdr-worktree-task](skills/herdr-worktree-task/)** — kick off a coding task in a new
-  git worktree as a [herdr](https://herdr.dev) space nested under the current
-  conversation's space, then launch an agent (Claude, Codex, or Cursor) in it in
-  skip-permissions mode.
+  git worktree as its own [herdr](https://herdr.dev) space, then launch an agent (Claude,
+  Codex, or Cursor) in a single pane in skip-permissions mode.
 
 ## Install
 
