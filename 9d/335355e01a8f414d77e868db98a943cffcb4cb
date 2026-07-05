@@ -1,0 +1,26 @@
+.claude-plugin/marketplace.json
+  s_55521b859ab88f::t_bb679d374b1689 1-20
+.claude-plugin/plugin.json
+  s_55521b859ab88f::t_d45ee584f533ea 1-5
+README.md
+  s_55521b859ab88f::t_629f5d65ee06b8 15-17,21-33
+  s_55521b859ab88f::t_8718fb8cf311da 34
+herdr-worktree-task/SKILL.md
+  s_55521b859ab88f::t_e20948b4540968 1-199
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9d335355e01a8f414d77e868db98a943cffcb4cb",
+  "prompts": {},
+  "sessions": {
+    "s_55521b859ab88f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b548f642-5d09-4b64-b7b9-95bf24aff848",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Dane Williams <dane.williams@clay.com>"
+    }
+  }
+}
