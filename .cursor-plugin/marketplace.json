@@ -1,0 +1,16 @@
+{
+  "name": "dotskills",
+  "owner": {
+    "name": "Dane Williams"
+  },
+  "metadata": {
+    "description": "Dane's personal agent skills for Cursor"
+  },
+  "plugins": [
+    {
+      "name": "dotskills",
+      "source": "./",
+      "description": "Dane's personal agent skills"
+    }
+  ]
+}
