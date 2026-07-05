@@ -1,0 +1,51 @@
+.cursor-plugin/plugin.json
+  s_55521b859ab88f::t_1b9a5155bb5845 1-7
+skills/herdr-worktree-task/SKILL.md
+  s_55521b859ab88f::t_db237fb4ba7e66 106
+  s_55521b859ab88f::t_6261bff0e57ed9 1-60,63-105,107-199
+  s_55521b859ab88f::t_5445e573e1e9ef 61-62
+.gitignore
+  s_55521b859ab88f::t_020ce425207fdb 1-3
+skills/dane-review/references/voice.md
+  s_55521b859ab88f::t_ba26d29a38d3e5 1-196
+.claude-plugin/marketplace.json
+  s_55521b859ab88f::t_94b418c0496e60 1-16
+README.md
+  s_55521b859ab88f::t_11181eb8567d10 1-46
+.codex-plugin/plugin.json
+  s_55521b859ab88f::t_c16554a34cf08e 1-11
+skills/dane-review/SKILL.md
+  s_55521b859ab88f::t_83fa96defb1736 1-117
+skills/dane-review/scripts/post-comment.sh
+  s_55521b859ab88f::t_e29c7380bd1512 1-47
+skills/dane-review/references/react.md
+  s_55521b859ab88f::t_e095117c0231bc 1-87
+.cursor-plugin/marketplace.json
+  s_55521b859ab88f::t_131805deb7f6c8 1-16
+skills/dane-review/references/general-review.md
+  s_55521b859ab88f::t_98d97480512206 1-147
+skills/dane-review/references/typescript.md
+  s_55521b859ab88f::t_39ad2f1a857e3d 1-96
+skills/dane-review/references/comment-bank.md
+  s_55521b859ab88f::t_dd0ce184bf0677 1-141
+.agents/plugins/marketplace.json
+  s_55521b859ab88f::t_ba76d3feebf847 1-18
+.claude-plugin/plugin.json
+  s_55521b859ab88f::t_5ae0a0238c35fa 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e58577c39d5774ddca030b06defa86583764c7b5",
+  "prompts": {},
+  "sessions": {
+    "s_55521b859ab88f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b548f642-5d09-4b64-b7b9-95bf24aff848",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
