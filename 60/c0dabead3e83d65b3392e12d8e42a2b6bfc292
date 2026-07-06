@@ -1,0 +1,22 @@
+skills/dane-review/SKILL.md
+  s_20076506b5a7bc::t_70cfd68fb68f05 51-57
+  s_20076506b5a7bc::t_8ef3fb98c6a55c 116-119,123-130,132-133
+skills/dane-review/scripts/post-comment.sh
+  s_20076506b5a7bc::t_31344c3af1429f 9-10,12,20-22,29-33,38,46,51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "60c0dabead3e83d65b3392e12d8e42a2b6bfc292",
+  "prompts": {},
+  "sessions": {
+    "s_20076506b5a7bc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3dc7aa16-d9b2-40bc-a73c-f1729c90f191",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Dane Williams <dane.williams@clay.com>"
+    }
+  }
+}
