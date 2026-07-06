@@ -48,7 +48,13 @@ Then post **only on Dane's explicit OK** (see Posting below).
 
 ## Core voice rules (essentials — full detail in `references/voice.md`)
 
-- **lowercase**, chat-like, concise. no terminal punctuation on short ones.
+- **lowercase by default**, chat-like, concise. don't reflexively capitalize sentence
+  starts or `i`; save caps for longer formal comments (deploy/api-design). no terminal
+  punctuation on short ones.
+- **default shorter than feels complete.** aim for one line; trim every clause that
+  isn't the point. err terse and let Dane expand, not the reverse.
+- **use bullets or a numbered list** when there's more than one discrete ask or a
+  sequence of steps — don't cram several points into one run-on sentence.
 - **wrap every identifier / type / path / flag in `backticks`.**
 - **frame critiques as questions or soft suggestions:** "could we…", "should we…",
   "why pass…", "wondering if…", "is this a real case?". Even firm bug-catches are
@@ -107,11 +113,21 @@ On OK, use `scripts/post-comment.sh`. It auto-detects the current repo from the 
 remote (override with `-R owner/repo`):
 
 ```bash
-scripts/post-comment.sh inline <pr> <path> <line> -b "comment"   # code-line comment
-scripts/post-comment.sh body   <pr>               -b "comment"   # top-level comment
-scripts/post-comment.sh reply  <pr> <comment_id>  -b "comment"   # reply in a thread
+SIG=(--model "Opus 4.8" --effort "high" --harness "Claude Code")
+scripts/post-comment.sh inline <pr> <path> <line> "${SIG[@]}" -b "comment"  # code-line comment
+scripts/post-comment.sh body   <pr>               "${SIG[@]}" -b "comment"  # top-level comment
+scripts/post-comment.sh reply  <pr> <comment_id>  "${SIG[@]}" -b "comment"  # reply in a thread
 # add -R owner/repo to target a repo other than the current directory's
 ```
 
+**AI attribution — required on every posted comment.** So it's clear Dane didn't
+hand-type it, each comment ends with `[Model, Effort, Harness]`; `post-comment.sh`
+appends this from `--model`/`--effort`/`--harness`, so always pass them (set `SIG`
+once). Fill them from your runtime: `--model` your model (e.g. `Opus 4.8`, `Sonnet 5`),
+`--effort` your reasoning setting (`low`/`medium`/`high`/`xhigh`/`max`, `?` if unknown),
+`--harness` your tool (`Claude Code`, `Codex`, `Cursor`). The tag goes on **everything**,
+including one-word approvals like `lgtm 🚢`.
+
 For a multi-comment review (several inline notes + a summary, his common shape),
-batch them in one review via the GitHub reviews API rather than many separate posts.
+batch them in one review via the GitHub reviews API rather than many separate posts —
+and append the same `[Model, Effort, Harness]` tag to each note **and** the summary body.
