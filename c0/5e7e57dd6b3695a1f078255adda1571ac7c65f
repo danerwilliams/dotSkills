@@ -1,0 +1,25 @@
+README.md
+  s_aacf7fa8206dbb::t_44f0854916ee0b 49-51
+.claude-plugin/plugin.json
+  s_aacf7fa8206dbb::t_f6d509cf97b2dd 3
+.codex-plugin/plugin.json
+  s_aacf7fa8206dbb::t_e1e41b27cba00e 3
+.cursor-plugin/plugin.json
+  s_aacf7fa8206dbb::t_632679b5ce13ac 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c05e7e57dd6b3695a1f078255adda1571ac7c65f",
+  "prompts": {},
+  "sessions": {
+    "s_aacf7fa8206dbb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "df858605-0986-474c-89b2-6485ce81c3a4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Dane Williams <dane.williams@clay.com>"
+    }
+  }
+}
