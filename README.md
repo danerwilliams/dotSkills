@@ -46,3 +46,6 @@ install **dotskills**.
 ## Notes
 
 - Skills here are sanitized to be portable: no private-repo links, no other people's names.
+- **Bump the plugin `version` in `.claude-plugin/`, `.codex-plugin/`, and `.cursor-plugin/`
+  `plugin.json` whenever you add or change a skill.** Claude Code's auto-update keys off the
+  version, so already-installed copies won't pick up new skills until the version changes.

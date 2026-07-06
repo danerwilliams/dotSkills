@@ -1,6 +1,6 @@
 {
   "name": "dotskills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dane's personal agent skills",
   "author": { "name": "Dane Williams" },
   "skills": "./skills/",
