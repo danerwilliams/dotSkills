@@ -1,0 +1,23 @@
+README.md
+  s_20076506b5a7bc::t_2c6724f71e01ae 18-20
+skills/pr-comment-loop/scripts/pr-loop.sh
+  s_20076506b5a7bc::t_73a8d2c750acc4 1-97
+skills/pr-comment-loop/SKILL.md
+  s_20076506b5a7bc::t_8fadca3eccf5bc 1-164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "061644f65742e0a9c0d62cdfba6397b2ff4a1f0a",
+  "prompts": {},
+  "sessions": {
+    "s_20076506b5a7bc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3dc7aa16-d9b2-40bc-a73c-f1729c90f191",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Dane Williams <dane.williams@clay.com>"
+    }
+  }
+}
