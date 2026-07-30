@@ -9,6 +9,9 @@ read: a required `SKILL.md` (YAML `name`/`description` + markdown body) plus opt
 
 ## Skills
 
+- **[explain-like-im-dane](skills/explain-like-im-dane/)** — explain a system or concept from
+  the ground up: plainly, concretely, and short. Numbered sections in dependency order, each
+  motivated by what breaks without it.
 - **[dane-review](skills/dane-review/)** — draft PR review comments in my voice and
   proactively catch the small style/correctness things I tend to flag. Repo-agnostic;
   strongest on TypeScript/React.
