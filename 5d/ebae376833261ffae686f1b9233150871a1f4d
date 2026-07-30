@@ -1,0 +1,27 @@
+skills/explain-like-im-dane/SKILL.md
+  s_f36058d10df61b::t_cdbd0dcb9f48c7 1-75
+README.md
+  s_f36058d10df61b::t_7fead1cbd546dc 12-14
+.claude-plugin/plugin.json
+  s_f36058d10df61b::t_0c1de08456ebcb 3
+.codex-plugin/plugin.json
+  s_f36058d10df61b::t_647d6bf164b856 3
+.cursor-plugin/plugin.json
+  s_f36058d10df61b::t_ff3f10f716308c 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.18",
+  "base_commit_sha": "5debae376833261ffae686f1b9233150871a1f4d",
+  "prompts": {},
+  "sessions": {
+    "s_f36058d10df61b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "67000b74-fbc2-43e1-9cf3-fe9522024c9d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Dane Williams <danerwilliams@Danes-MacBook-Pro.local>"
+    }
+  }
+}
