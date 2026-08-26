@@ -12,12 +12,6 @@ read: a required `SKILL.md` (YAML `name`/`description` + markdown body) plus opt
 - **[dane-review](skills/dane-review/)** — draft PR review comments in my voice and
   proactively catch the small style/correctness things I tend to flag. Repo-agnostic;
   strongest on TypeScript/React.
-- **[herdr-worktree-task](skills/herdr-worktree-task/)** — kick off a coding task in a new
-  git worktree as its own [herdr](https://herdr.dev) space, then launch an agent (Claude,
-  Codex, or Cursor) in a single pane in skip-permissions mode.
-- **[pr-comment-loop](skills/pr-comment-loop/)** — loop over every review/inline/bot comment
-  on a PR until the bots go quiet: dismiss with a reply or accept and fix in a new commit,
-  respond in my voice, and sign every AI reply `[Model, Effort, Harness]`.
 
 ## Install
 
