@@ -121,7 +121,7 @@ scripts/post-comment.sh reply  <pr> <comment_id>  "${SIG[@]}" -b "comment"  # re
 ```
 
 **AI attribution — required on every posted comment.** So it's clear Dane didn't
-hand-type it, each comment ends with `[Model, Effort, Harness]`; `post-comment.sh`
+hand-type it, each comment ends with `- Dane via Agent [Model, Effort, Harness]`; `post-comment.sh`
 appends this from `--model`/`--effort`/`--harness`, so always pass them (set `SIG`
 once). Fill them from your runtime: `--model` your model (e.g. `Opus 4.8`, `Sonnet 5`),
 `--effort` your reasoning setting (`low`/`medium`/`high`/`xhigh`/`max`, `?` if unknown),
@@ -130,4 +130,4 @@ including one-word approvals like `lgtm 🚢`.
 
 For a multi-comment review (several inline notes + a summary, his common shape),
 batch them in one review via the GitHub reviews API rather than many separate posts —
-and append the same `[Model, Effort, Harness]` tag to each note **and** the summary body.
+and append the same `- Dane via Agent [Model, Effort, Harness]` tag to each note **and** the summary body.
