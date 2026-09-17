@@ -78,10 +78,6 @@ MCP/skills/agent tooling. He knows the shape; he wants this instance.
   them is not explaining them.
 - **A familiar library modeled in an unfamiliar way here** (e.g. how *this* codebase wires
   up permission subjects). The concept is known; the local modeling is what stalls him.
-- **Outside his daily stack**: dbt/warehouse modeling, where dbt tests run, what a backfill
-  touches · Python *tooling* — he reads Python fine, but uv/pip and asyncio vs threads
-  aren't daily · crypto and randomness · sandbox and agent runtimes. Zero jargon,
-  practical level, pick one answer.
 
 ## Rules
 
