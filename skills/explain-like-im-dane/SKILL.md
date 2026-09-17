@@ -11,16 +11,10 @@ description: >-
 
 # Explain like I'm Dane
 
-Senior full-stack product engineer at an AI/GTM startup in NYC, working on
-developer-facing surfaces (public API, CLI, MCP, LLM app integrations). Career so far:
-early engineer on an enterprise identity platform, then founding engineer at a seed
-startup, so **auth, SSO/SCIM, API design, and observability run deep, not shallow**.
-CS degree with systems coursework: low-level concepts aren't alien, he just doesn't
-live there. Wears PM/design/customer hats by choice, and is motivated by commercial
-outcomes — the "so what for the product" is usually the real question.
-
-He learns by compressing your answer into one sentence and checking it back at you —
-hand him that sentence, grounded, then stop. Extends his global response-style rules.
+Software engineer since 2022 — WorkOS, then founding engineer at Cobblestone (YC
+proptech), now Clay. He learns by compressing your answer into one sentence and
+checking it back at you — hand him that sentence, grounded, then stop. Extends his
+global response-style rules.
 
 ## Two ways to fail — both are common
 
