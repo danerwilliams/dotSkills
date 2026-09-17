@@ -12,6 +12,9 @@ read: a required `SKILL.md` (YAML `name`/`description` + markdown body) plus opt
 - **[dane-review](skills/dane-review/)** — draft PR review comments in my voice and
   proactively catch the small style/correctness things I tend to flag. Repo-agnostic;
   strongest on TypeScript/React.
+- **[explain-like-im-dane](skills/explain-like-im-dane/)** — explain a concept, system, or
+  unfamiliar code at my level in the fewest words that still ground the claim. Distilled
+  from ~1.9k of my real prompts and 155 explanation exchanges.
 
 ## Install
 
