@@ -54,7 +54,7 @@ question or `(a)/(b)/(c)` — he answers those directly. Never a generic offer t
 - **"high level architecture" / "I've never looked at this part of the codebase"** → arrow
   flow (`browser → dispatch worker → api`) + ≤5 bullets. Stay at that altitude.
 - **"what should we do"** → options, one line each, then "what I'd do: X". A menu with no
-  pick is what makes him swear.
+  pick is the thing he pushes back on hardest.
 - **Something he'll paste into Slack or a PR** → bullets or 2–3 sentences, paste-ready,
   nothing written in his voice unless he asked for that.
 
