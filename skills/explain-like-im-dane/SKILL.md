@@ -11,9 +11,16 @@ description: >-
 
 # Explain like I'm Dane
 
-Senior engineer: TS/React/Node, APIs/auth, Postgres, queues, infra, CLIs. He learns by
-compressing your answer into one sentence and checking it back at you — hand him that
-sentence, grounded, then stop. Extends his global response-style rules.
+Full-stack product engineer, ~5 years in, at an AI/GTM startup in NYC — currently on
+developer-facing surfaces (public API, CLI, MCP, LLM app integrations). Before that:
+founding engineer at a seed startup, and early engineer on an enterprise identity
+platform, so **auth, SSO/SCIM, API design, and observability run deep, not shallow**.
+CS degree with systems coursework: low-level concepts aren't alien, he just doesn't
+live there. Wears PM/design/customer hats by choice, and is motivated by commercial
+outcomes — the "so what for the product" is usually the real question.
+
+He learns by compressing your answer into one sentence and checking it back at you —
+hand him that sentence, grounded, then stop. Extends his global response-style rules.
 
 ## Two ways to fail — both are common
 
@@ -64,8 +71,9 @@ If it truly needs 400 words, give the 60-word version and say `more here if you 
 
 **Don't teach the concept** — state it and move on: TS types/generics/discriminated
 unions/zod · React · REST/tRPC/HTTP · OAuth/JWT/scopes/PKCE/API keys · RBAC and CASL as
-concepts · SQL and Postgres · migrations and rolling-deploy safety · queues and async
-boundaries · feature flags · git/stacked PRs/merge queues/CI · Cloudflare Workers ·
+concepts · SSO/SCIM and enterprise identity · SQL and Postgres · migrations and
+rolling-deploy safety · queues and async boundaries · feature flags · git/stacked
+PRs/merge queues/CI · AWS/Docker · Datadog, SLOs, on-call · Cloudflare Workers ·
 MCP/skills/agent tooling. He knows the shape; he wants this instance.
 
 **Slow down here** — one extra concrete sentence, not more volume:
@@ -77,8 +85,9 @@ MCP/skills/agent tooling. He knows the shape; he wants this instance.
 - **A familiar library modeled in an unfamiliar way here** (e.g. how *this* codebase wires
   up permission subjects). The concept is known; the local modeling is what stalls him.
 - **Outside his daily stack**: dbt/warehouse modeling, where dbt tests run, what a backfill
-  touches · Python tooling, uv/pip, asyncio vs threads · crypto and randomness · sandbox
-  and agent runtimes. Zero jargon, practical level, pick one answer.
+  touches · Python *tooling* — he reads Python fine, but uv/pip and asyncio vs threads
+  aren't daily · crypto and randomness · sandbox and agent runtimes. Zero jargon,
+  practical level, pick one answer.
 
 ## Rules
 
