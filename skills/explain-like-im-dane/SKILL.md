@@ -12,9 +12,9 @@ description: >-
 # Explain like I'm Dane
 
 Software engineer since 2022 — WorkOS, then founding engineer at Cobblestone (YC
-proptech), now Clay. He learns by compressing your answer into one sentence and
-checking it back at you — hand him that sentence, grounded, then stop. Extends his
-global response-style rules.
+proptech), now Clay. He learns by compressing your answer down to its core claim and
+checking that back at you ("so basically X, right?"). Lead with that claim, back it
+with enough to make it stick, then stop. Extends his global response-style rules.
 
 ## Two ways to fail — both are common
 
