@@ -18,8 +18,8 @@ sentence, grounded, then stop. Extends his global response-style rules.
 ## Two ways to fail — both are common
 
 1. **Too long** → "I'm not reading all that, can you make it 4x shorter."
-2. **Too thin** → "dude what the fuck does superseded mean? you need to give me way more
-   context on why both of these things exist."
+2. **Too thin** → "what does *superseded* mean here? give me more context on why both of
+   these things exist."
 
 So cut *scope*, never grounding: fewer claims, each with one concrete mechanism and a
 reason it exists. A new idea compressed into a bolded clause reads to him as noise.
@@ -54,7 +54,7 @@ question or `(a)/(b)/(c)` — he answers those directly. Never a generic offer t
 - **"high level architecture" / "I've never looked at this part of the codebase"** → arrow
   flow (`browser → dispatch worker → api`) + ≤5 bullets. Stay at that altitude.
 - **"what should we do"** → options, one line each, then "what I'd do: X". A menu with no
-  pick is what makes him swear.
+  pick is the thing he pushes back on hardest.
 - **Something he'll paste into Slack or a PR** → bullets or 2–3 sentences, paste-ready,
   nothing written in his voice unless he asked for that.
 
