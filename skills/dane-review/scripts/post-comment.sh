@@ -29,7 +29,7 @@ resolve_repo() {
 # Read the drafted body and append the AI attribution tag.
 signed_body() {
   [ -n "$MODEL" ] && [ -n "$HARNESS" ] || { echo "missing --model/--harness (AI tag)" >&2; exit 2; }
-  printf '%s\n\n[%s, %s, %s]' "$(read_body)" "$MODEL" "${EFFORT:-?}" "$HARNESS"
+  printf '%s\n\n- Dane via Agent [%s, %s, %s]' "$(read_body)" "$MODEL" "${EFFORT:-?}" "$HARNESS"
 }
 
 case "$mode" in
